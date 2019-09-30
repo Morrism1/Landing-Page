@@ -1,0 +1,31 @@
+html { 
+    background: url('/img/car.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.head-class{
+    color: rgb(87, 87, 240); 
+    background-color: rgb(94, 255, 0);
+    width: 100%;
+    padding: 10px 0;
+    float: left;
+
+}
+body{
+    background: fixed;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+nav{
+    display: inline;
+}
+header{
+    top: 0;
+}
+footer{
+    bottom: 0;
+}
+
+
