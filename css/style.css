@@ -1,11 +1,11 @@
 html { 
-    background: url('/img/car.jpg') no-repeat center center fixed; 
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)),url('/img/car.jpg') no-repeat center center fixed; 
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 .head-class{
     color: rgb(87, 87, 240); 
     background-color: rgb(94, 255, 0);
@@ -21,9 +21,17 @@ body{
 }
 nav{
     display: inline;
+    margin-right: 20px
 }
 header{
     top: 0;
+    display: inline-block;
+    position: fixed;
+    padding: 20px 0;
+    text-align: right;
+    left: 0;
+    height: 50px;
+    width: 100%;
 }
 .main-text{
     text-align:center;
@@ -37,5 +45,22 @@ footer{
     padding: 10px;
     position: absolute;
     bottom: 0;
+}
+p{
+    line-height: 30px;
+    font-size: 150%;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif
+}
+h1{
+    font-size: 150%;
+    font-style: italic;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+header img{
+   float: left;
 }
 
