@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <!--<img src="/img/car.jpg" alt="car" class="img">-->
-    <header class="head-class">
-      <img src="image.jpg">
-
-        <nav><a href="#">Home</a></nav>
-        <nav><a href="#">About Us</a></nav>
-        <nav><a href="#">Fleet</a></nav>
-
+    <header class="head-class" id="header">
+      <img src="image.jpg" id="header-img" />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#footer" class="nav-link">About Us</a></li>
+          <li><a href="#form" class="nav-link">Fleet</a></li>
+        </ul>
+      </nav>
     </header>
+    <video src="" id="video"></video>
+    <form action="" id="form">
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter Email"
+        target="_blank"
+        required
+      />
+      <input type="submit" value="email" id="submit" />
+    </form>
 
-    <div class="main-text">
+    <div class="main-text" id="home">
       <h1>Car Rentals</h1>
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-          Nulla, recusandae ducimus similique impedit iste suscipit culpa obcaecati!<br>
-          Adipisci ipsa, tempore repellendus itaque voluptatem maxime illo suscipit inventore delectus quod voluptate.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+        Nulla, recusandae ducimus similique impedit iste suscipit culpa
+        obcaecati!<br />
+        Adipisci ipsa, tempore repellendus itaque voluptatem maxime illo
+        suscipit inventore delectus quod voluptate.
+      </p>
     </div>
 
-    <footer>
+    <footer id="footer">
       <div>Contact Number: 555-3578</div>
       <div>&copy;</div>
     </footer>
-    
 
-    
-    <script  src="js/index.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
